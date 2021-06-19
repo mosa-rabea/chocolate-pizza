@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kadwa&display=swap');
+
+body{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: whitesmoke;
+}
+
+header {
+    display: flex;
+    margin-left: 8%;
+    width: 70%;
+    padding: 2% 0 2% 0;
+    position: relative;
+}
+
+
+.Header1 {
+    display: inline-block;
+    margin-right: 0%;
+}
+
+#pint-icon{
+    padding-right: 50%;
+}
+
+header div img{
+    width: 110%;
+  height: auto;
+  padding-right: 5%;
+}
+header h1 {
+    font-size: 40px;
+    font-family: 'IM Fell DW Pica', serif;
+    margin-left: 3%;
+    width: 100%;
+}
+header h3 {
+    font-size: 10px;
+    font-family: 'Kadwa', serif;
+    margin-left: 3%;
+    width: 100%;
+    color: rgb(116, 116, 112);
+}
+ul li {
+    display: inline-block;
+}
+nav ul {
+    position: absolute;
+    right:-35%;
+    bottom:25%;
+    
+}
+
+
+main {
+    width: 110%;
+    padding: 1% 0 1% 0;
+    position: relative;
+    
+}
+
+
+hr{
+    display: block;
+    background-image: url(https://github.com/waleedafifi90/amman-201d28/blob/main/class-10/lab-a/lab-assets/hr-img.png?raw=true);
+    border: 0px; 
+    height: 15px;
+    width: 901px;
+    margin-top: 2%;
+    margin-left: 7%;
+    position:relative;
+    
+   
+ }
+ 
+ 
+ #one{
+     margin-left: 65.5%;
+     clear: both;
+     display: block;
+     color: darkgray;
+ }
+ 
+ 
+ #sectionOne {
+ margin-left:23%;
+ display: block;
+ color: darkgray;
+ 
+ }
+ 
+ #sectionOne span{
+     font-size:30px;
+     font-weight: bolder;
+     font-weight: 900;
+     color: black;
+     left: 0%; 
+     font-family: sans-serif;
+ }
+ 
+ #sectionOne p {
+     margin-left:-21%;
+     font-family: sans-serif;
+     
+ }
+ #sectionOne p small {
+
+    font-size: 12px;
+    font-family: sans-serif;
+    padding-top: 0px;
+ }
+
+ #one{
+     
+    float: right;
+    margin-right: 27%;
+ }
+ #sectionTwo img{
+     display:block;
+     margin-left: auto;
+     margin-right: auto;
+     clear: both;    
+ }
+ 
+ #sectionThree {
+     display: block;
+      margin-left:auto;
+      margin-right: auto;
+      clear: both;
+      text-align:center;
+      font-size:larger;
+      padding: 2%;
+      color:dimgray;
+     
+ }
+
+ #sectionThree p{
+     width: 64%;
+     margin-bottom: 2%;
+     margin-left: 18%;
+      text-align: left;
+      text-indent: 5%;
+ }
+ #sectionFour{
+     position: relative;
+     text-align: center;
+ }
+ 
+ #form{
+     position: absolute;
+     top: 10%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     height: 20px;
+  }
+ 
+  #firstbox{
+ position: absolute;
+   top: 50px;
+   right: 63%;
+   text-align: justify;
+ }
+ 
+ #secondbox{
+  position: absolute;
+   top: 50px;
+   right: 30%;
+   text-align: justify;
+ }
+ 
+ #secondbox div{
+     text-decoration:line-through;
+ }
+ 
+ #sectionFive{
+     position: relative;
+     padding: 20px;
+     margin-left:5%;
+ }
+ 
+ #sectionFive img{
+     
+     clear: both;
+     float: left;
+     padding-right: 20px;  
+     display: block;
+     
+ }
+ 
+ #sectionFive span{
+     font-size:x-large;
+     color: slategrey;
+     position: absolute;
+     margin-bottom: 5%;
+ }
+ 
+ #sectionFive p{
+     font-size:large;
+     color: slategrey;
+     position: absolute;
+     margin-top: 2%;
+     margin-left: 9%;
+     
+ }
+ 
+  button{
+     text-align: center;
+     padding: 15px 33px;
+     color:whitesmoke;
+     background-color: brown;
+     border: none;
+     clear: both;
+     margin-left: 55% ;    
+  }
+ 
+  footer{
+      padding:80px;
+      clear: both;
+  }
+ 
+  footer hr {     
+     background: url('https://github.com/waleedafifi90/amman-201d28/blob/main/class-10/lab-a/lab-assets/small-logo.png?raw=true') no-repeat top center;
+     background-size: contain;
+     display: block;
+     height: 30px;
+     border: 0;
+     width: 50%;
+     position: relative; 
+     margin-left: 25%;
+     }
+ 
+  
+  footer p{
+      text-align: center;
+      color: darkgrey;
+  }
