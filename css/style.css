@@ -1,239 +1,175 @@
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kadwa&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');/* tag name selector */
+a{
+    text-decoration: none;
+}
 body{
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
-    background-color: whitesmoke;
+    width: 950px;
+    margin: auto;
+    font-family: 'Roboto Slab', serif;
 }
-
-header {
-    display: flex;
-    margin-left: 8%;
-    width: 70%;
-    padding: 2% 0 2% 0;
-    position: relative;
-}
-
-
-.Header1 {
-    display: inline-block;
-    margin-right: 0%;
-}
-
-#pint-icon{
-    padding-right: 50%;
-}
-
-header div img{
-    width: 110%;
-  height: auto;
-  padding-right: 5%;
-}
-header h1 {
-    font-size: 40px;
-    font-family: 'IM Fell DW Pica', serif;
-    margin-left: 3%;
-    width: 100%;
-}
-header h3 {
-    font-size: 10px;
-    font-family: 'Kadwa', serif;
-    margin-left: 3%;
-    width: 100%;
-    color: rgb(116, 116, 112);
-}
-ul li {
-    display: inline-block;
-}
-nav ul {
-    position: absolute;
-    right:-35%;
-    bottom:25%;
-    
-}
-
-
-main {
-    width: 110%;
-    padding: 1% 0 1% 0;
-    position: relative;
-    
-}
-
-
 hr{
-    display: block;
-    background-image: url(https://github.com/waleedafifi90/amman-201d28/blob/main/class-10/lab-a/lab-assets/hr-img.png?raw=true);
-    border: 0px; 
     height: 15px;
-    width: 901px;
-    margin-top: 2%;
-    margin-left: 7%;
-    position:relative;
-    
-   
- }
- 
- 
- #one{
-     margin-left: 65.5%;
-     clear: both;
-     display: block;
-     color: darkgray;
- }
- 
- 
- #sectionOne {
- margin-left:23%;
- display: block;
- color: darkgray;
- 
- }
- 
- #sectionOne span{
-     font-size:30px;
-     font-weight: bolder;
-     font-weight: 900;
-     color: black;
-     left: 0%; 
-     font-family: sans-serif;
- }
- 
- #sectionOne p {
-     margin-left:-21%;
-     font-family: sans-serif;
-     
- }
- #sectionOne p small {
+    background: url(../img/hr-img.png);
+    border: 0px;
+}
+header{
+    height: 90px;
+    padding: 25px 0 20px 0;
+    clear: both;
+}
 
-    font-size: 12px;
-    font-family: sans-serif;
-    padding-top: 0px;
- }
+header article{
+    height: 60px;
+}
 
- #one{
-     
+header ul li{
+    float: left;
+    margin: 0 1px;
+}
+header ul li:nth-child(6) {
+    margin-right: 9px;
+}
+/* class selector */
+.hero-img{
+    width: 100%;
+}
+.social-media{
     float: right;
-    margin-right: 27%;
- }
- #sectionTwo img{
-     display:block;
-     margin-left: auto;
-     margin-right: auto;
-     clear: both;    
- }
- 
- #sectionThree {
-     display: block;
-      margin-left:auto;
-      margin-right: auto;
-      clear: both;
-      text-align:center;
-      font-size:larger;
-      padding: 2%;
-      color:dimgray;
-     
- }
+}
+.print-side{
+    float: right;
+}
+.right-print{
+    top: 45px;
+    padding-bottom: 20px ;
+}
+.print-side a{
+    text-decoration: none;
+    color: #9e9a9a;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+}
+.print-side a p {
+    display: inline;
+}
 
- #sectionThree p{
-     width: 64%;
-     margin-bottom: 2%;
-     margin-left: 18%;
-      text-align: left;
-      text-indent: 5%;
- }
- #sectionFour{
+.logo-and-name{
+    float: left;
+}
+.logo img {
+    
+   float: left;
+}
+.logo-and-name div{
+    margin-left: 50px;
+}
+.logo-and-name div p{
+    margin: auto;
+    font-size: 12px;
+    color: #4d3e3e;
+}
+.logo-and-name div p:first-child{
+    font-size: 24px;
+    font-family: 'Yellowtail', cursive;
+    font-weight: 700;
+}
+
+.descrption {
+    margin: 20px 0px;
+    text-indent: 25px;
+    line-height: 1.5;
+    font-size:20px;
+    color: #303026;
+}
+.descrption p{
+    margin: 30px;
+    color: #303026;
+}
+.menu{
+    background: url(../img/list-bg.png);
+    height: 200px;
+    padding: 30px 30px 30px 30px;
+}
+.menu ul li {
+    list-style: none;
+    width: 45%;
+    float: left;
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: 'Pangolin', cursive;
+}
+.head-and-desc{
+    margin-top: 15 px ;
+}
+.head-and-desc h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+main section:first-child p{
+    font-size: 13px;
+    color: #888;
+    margin: auto;
+}
+.personal-info{
+    height: 140px;
+}
+.personal-info>.right {
+    width: 80%;
+}
+.personal-info img{
+    width: 70px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.personal-info div{
+    margin-left: 90px;
+    color: #817f81;
+}
+
+.personal-info a{
+        float: right;
+       background-color: #e76c07f3;
+      /* border: none; */
+      color: white;
+      /* text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      margin: 4px 2px; */
+     /* position: relative; */
+     /* top: 20px; */
+     /* padding: 20px 20px 15px 30px; */
      position: relative;
-     text-align: center;
+    /* top: 20px; */
+    padding: 20px 30px 15px 30px;
+    
+}
+.personal-info .name{
+    font-size: 20px;
+    font-weight: 700;
+    color: #222831;
+    line-height: 32px;
+}
+
+footer{
+    text-align: center;
+    border-top: 3px solid #f4f6ff;
+    height: 120px;
+    width: 100%;
+} 
+ footer div p{
+    color: rgb(100, 99, 99);
+    margin: 0;
+    text-align: center;
+} 
+ footer img{
+    align-items: center;
+    display: block;
+    position: relative;
+    bottom: 15px;
+    margin-bottom: 15px;
+    margin: auto;
  }
- 
- #form{
-     position: absolute;
-     top: 10%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-     height: 20px;
-  }
- 
-  #firstbox{
- position: absolute;
-   top: 50px;
-   right: 63%;
-   text-align: justify;
- }
- 
- #secondbox{
-  position: absolute;
-   top: 50px;
-   right: 30%;
-   text-align: justify;
- }
- 
- #secondbox div{
-     text-decoration:line-through;
- }
- 
- #sectionFive{
-     position: relative;
-     padding: 20px;
-     margin-left:5%;
- }
- 
- #sectionFive img{
-     
-     clear: both;
-     float: left;
-     padding-right: 20px;  
-     display: block;
-     
- }
- 
- #sectionFive span{
-     font-size:x-large;
-     color: slategrey;
-     position: absolute;
-     margin-bottom: 5%;
- }
- 
- #sectionFive p{
-     font-size:large;
-     color: slategrey;
-     position: absolute;
-     margin-top: 2%;
-     margin-left: 9%;
-     
- }
- 
-  button{
-     text-align: center;
-     padding: 15px 33px;
-     color:whitesmoke;
-     background-color: brown;
-     border: none;
-     clear: both;
-     margin-left: 55% ;    
-  }
- 
-  footer{
-      padding:80px;
-      clear: both;
-  }
- 
-  footer hr {     
-     background: url('https://github.com/waleedafifi90/amman-201d28/blob/main/class-10/lab-a/lab-assets/small-logo.png?raw=true') no-repeat top center;
-     background-size: contain;
-     display: block;
-     height: 30px;
-     border: 0;
-     width: 50%;
-     position: relative; 
-     margin-left: 25%;
-     }
- 
-  
-  footer p{
-      text-align: center;
-      color: darkgrey;
-  }
